@@ -36,6 +36,7 @@ The following **additional** features are implemented:
 Here's a walkthrough of implemented user stories:
 
 <img src='https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExOGJ0NGdyZWNkNzY4bjB2eTAxOGs5b3RieDBrNzJoMzF1a3IxMG85aiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xHzkF0JJoKKgscR3Go/giphy.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='src/IMB_7owGFB.GIF' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with imgplay and giphy 
