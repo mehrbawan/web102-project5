@@ -1,8 +1,22 @@
+body {
+  background-image: url(https://cdn.pixabay.com/photo/2022/03/27/17/22/background-7095674_1280.jpg);
+}
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+}
+
+.scrollFilter {
+  align-content: center;
+}
+
+.searchContainer {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
 }
 
 button,
@@ -29,14 +43,27 @@ button:focus-visible {
 }
 
 h1 {
-  color: cyan;
-  text-align: center;
+  color: rgb(167, 125, 46);
+}
+
+h3 {
+  color: rgb(195, 194, 190);
+}
+
+h1,
+h2,
+h3 {
+  margin: 20px;
+}
+
+p {
+  margin: 0px;
+  font-size: 10px;
+  color: rgb(167, 125, 46);
 }
 
 .dataContainer {
   width: 100%;
-  background-color: blue;
-  ;
   border-width: 4px;
   border-color: orange;
   display: flex;
@@ -55,54 +82,64 @@ h1 {
 
 .statContainer {
   display: flex;
-  background-color: darkblue;
   border-width: 4px;
   border-color: orange;
   width: 100%;
-  align-content: center; 
-  
+  align-content: center;
+
 }
 
 .stat {
   width: 100%;
   height: 100%;
-  background-color: green;
   text-align: center;
   margin: 0px;
 }
 
-.stat, .dataContainer{
+.stat,
+.dataContainer {
   border-style: solid;
-  border-color: yellow;
-  border-width: 4px;
+  border-color: rgb(143, 117, 68);
+  border-radius: 10px;
+  background-color: rgba(84, 84, 84, 0.5)
 }
 
 .tableContainer {
   width: 100%;
-  height: 400px; /* Set the height of the table container */
-  overflow-y: auto; /* Enable vertical scrolling */
+  height: 400px;
+  /* Set the height of the table container */
+  overflow-y: auto;
+  /* Enable vertical scrolling */
 }
 
 table {
   width: 100%;
-  border-collapse: collapse; /* Merge table borders */
+  border-collapse: collapse;
+  /* Merge table borders */
 }
 
 thead {
-  position: sticky; /* Make header sticky */
-  top: 0; /* Set top position */
-  background: #fff; /* Background color for header */
-  z-index: 10; /* Ensure header is above other content */
+  position: sticky;
+  /* Make header sticky */
+  top: 0;
+  /* Set top position */
+  background: #fff;
+  /* Background color for header */
+  z-index: 10;
+  /* Ensure header is above other content */
 }
 
-th, td {
+th,
+td {
   padding: 10px;
   text-align: left;
-  border: 1px solid #ddd; /* Border for table cells */
+  border: 1px solid #ddd;
+  /* Border for table cells */
 }
 
 th {
-  background-color: purple; /* Header background color */
+  background-color: rgb(143, 117, 68);
+  /* Header background color */
 }
 
 /*.sidebarContainer {
